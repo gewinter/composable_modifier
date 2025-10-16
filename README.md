@@ -11,12 +11,19 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package aims to bring jetpack compose style modifiers into the flutter world.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+When working with Jetpack compose, you will realize that they chose a different approach for applying
+"properties" to widgets.
+Most widgets can be equipped with a modifier, which can be used to apply padding, coloring, animations etc.
+This reduces indentations withing the widget tree, promotes extendability and separation of concerns.
+This package tries to bring this concept into flutter.
+Here's an example:
+```dart
+    
+```
 
 ## Getting started
 
